@@ -15,7 +15,7 @@
 - FPGA : PYNQ-Z2
 
 # Block Design 
-![Block diagram](img/image.png)
+![Block Design](img/image.png)
 
 # What Verification ?
 
@@ -25,6 +25,11 @@
 |LED3 |LED2| LED1 |LED0|
 | :---- | ------ | :----------: | --------------------: |
 |memtoreg[1]|memtoreg[0] | memwrite| regwrite
+# Result
+
+- One result When PC=0x40
+![Sim](img/sim.png)
+![FPGA](img/memtoreg.png)
 
 # Limitation
 
